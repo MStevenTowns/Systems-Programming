@@ -1,0 +1,15 @@
+total 84
+-rw-r--r-- 1 steven steven  1327 Apr 19 17:28 Commands.c
+-rw-r--r-- 1 steven steven   622 Apr 19 17:29 Commands.h
+-rw-r--r-- 1 steven steven  2480 Apr 19 18:54 Commands.o
+-rw-r--r-- 1 steven steven   467 Apr 19 18:53 makefile
+-rw-r--r-- 1 steven steven  1886 Apr 21 18:48 Set_Variable.c
+-rw-r--r-- 1 steven steven   510 Apr 19 17:37 Set_Variable.h
+-rw-r--r-- 1 steven steven  3080 Apr 21 18:55 Set_Variable.o
+-rwxr-xr-x 1 steven steven 17576 Apr 21 18:55 techShell
+-rw-r--r-- 1 steven steven  4797 Apr 21 18:55 techShell.c
+-rw-r--r-- 1 steven steven  7472 Apr 21 18:55 techShell.o
+-rw-r--r-- 1 steven steven     0 Apr 21 18:58 test.txt
+-rw-r--r-- 1 steven steven  4676 Apr 21 18:48 Tokenizer.c
+-rw-r--r-- 1 steven steven   556 Apr 13 16:28 Tokenizer.h
+-rw-r--r-- 1 steven steven  5704 Apr 21 18:55 Tokenizer.o
