@@ -1,0 +1,71 @@
+Dr. Box
+Fastest contact: Naibox@gmail.com
+book optional (fuck that book)
+jan 21 mid term
+feb 25 final exam
+	no mult choice, just written answers
+
+
+ctrl+z - suspend 
+fg - bring back to fg
+jobs - list jobs running (from current terminal
+
+fg |jobs N  - bring job N back to fg
+%N
+	N= number of job you want to bring back to fg
+
+stderr:
+	$command-name &>file
+or
+	command>file 2>&1
+run command in background
+	command &
+
+
+problem 4:
+echo $PATH
+
+
+homework 1:
+1: opperating system services/features (file management)
+2:  
+3: ls -a |more; ls|wc
+
+Commands:
+cal display a calendar
+$salutation=hello
+$echo $salutation
+	hello
+$salutation="hello"
+$echo $salutation
+	hello
+
+$read salutation
+ Hello
+$echo $salutation
+	Hello
+
+############################
+#!/bin/sh
+myvar="Hi there"
+echo $myvar
+echo Enter some text
+read myvar
+echo '$myvar' now equals $myvar
+exit 0
+##############################
+if variable is put inside of ' ' it will print the exact text, it will not evaluate the variable (includes escape characters
+
+with " " it will evaluate variables and escape characters
+#!/bin/sh
+#first
+#this file looks for the files conatining posix
+#and print it
+for file in *
+do 
+	if grep POSIX $file
+	then 
+		echo $file
+	fi
+done
+exit 0

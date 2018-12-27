@@ -1,0 +1,13 @@
+M. Steven Towns
+CSC 222
+1/26/16
+HW2
+
+File Counter (2016 Jan 26)"
+recursive file counter that counts files from given directories, excluding the directories itself
+
+usage:	countf.sh [arguments] [file ..]		Counts files recursively in listed files
+   or: 	countf.sh 				Counts files recursively from current directory
+Arguments:
+	 -h		Print help and exit
+
